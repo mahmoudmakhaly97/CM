@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1036.167" height="198.451" viewBox="0 0 1036.167 198.451">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_14373" data-name="Path 14373" d="M0,77.679H1036.167V-120.772H0Z" transform="translate(0 120.772)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10255" data-name="Group 10255" transform="translate(0 120.772)">
+    <g id="Group_10254" data-name="Group 10254" transform="translate(0 -120.772)" clip-path="url(#clip-path)">
+      <g id="Group_10252" data-name="Group 10252" transform="translate(321.359 15.645)">
+        <g id="Group">
+          <text id="MA" transform="translate(0 88)" fill="#000" font-size="114" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">MA</tspan></text>
+          <text id="G" transform="translate(196.253 88)" fill="#000" font-size="115" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">G</tspan></text>
+          <text id="N" transform="translate(295.405 88)" fill="#000" font-size="115" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">N</tspan></text>
+          <text id="I" transform="translate(384.073 88)" fill="#000" font-size="115" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">I</tspan></text>
+          <text id="T" transform="translate(426.623 88)" fill="#000" font-size="115" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">T</tspan></text>
+          <text id="U" transform="translate(495.305 88)" fill="#000" font-size="115" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">U</tspan></text>
+          <text id="D" transform="translate(576.793 88)" fill="#000" font-size="114" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">D</tspan></text>
+          <text id="E" transform="translate(663.978 87)" fill="#000" font-size="113" font-family="Helvetica" letter-spacing="0.159em"><tspan x="0" y="0">E</tspan></text>
+        </g>
+      </g>
+      <g id="Group_10253" data-name="Group 10253" transform="translate(323.689 124.259)">
+        <g id="Group-2" data-name="Group">
+          <text id="CREA" transform="translate(0 51)" fill="#000" font-size="67" font-family="Helvetica" letter-spacing="0.91em"><tspan x="0" y="0">CREA</tspan></text>
+          <text id="TIVE" transform="translate(404.301 51)" fill="#000" font-size="67" font-family="Helvetica" letter-spacing="0.91em"><tspan x="0" y="0">TIVE</tspan></text>
+        </g>
+      </g>
+      <path id="Path_14372" data-name="Path 14372" d="M245.006-120.771,175.374-103.53,127.031-33.148,98.763-61.177l-36.408-36.1L0,7.872,30.94,58.726H61.059l8.6-65.95,57.372,59L168.178,7.648l55.286,51.078h29.478L283.5-7.223Z" transform="translate(0 120.772)" fill="#000"/>
+    </g>
+  </g>
+</svg>

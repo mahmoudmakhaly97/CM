@@ -1,0 +1,40 @@
+<svg id="Group_9877" data-name="Group 9877" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="516.087" height="367.002"
+    viewBox="0 0 516.087 367.002">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_2742" data-name="Rectangle 2742" d="M516.087,0H0V367H516.087Z"
+                fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Rectangle_2738" data-name="Rectangle 2738" d="M75.428,0H0V71.336H75.428Z"
+                fill="none" />
+        </clipPath>
+    </defs>
+    <g id="Group_9876" data-name="Group 9876" clip-path="url(#clip-path)">
+        <path id="Rectangle_2736" data-name="Rectangle 2736" d="M75.43,0H0V71.336H75.43Z"
+            transform="translate(365.228)" fill="#31e4a7" />
+        <g id="Group_9875" data-name="Group 9875">
+            <g id="Group_9874" data-name="Group 9874" clip-path="url(#clip-path)">
+                <g id="Group_9873" data-name="Group 9873" transform="translate(289.801 71.337)"
+                    opacity="0.52">
+                    <g id="Group_9872" data-name="Group 9872">
+                        <g id="Group_9871" data-name="Group 9871" clip-path="url(#clip-path-3)">
+                            <path id="Rectangle_2737" data-name="Rectangle 2737"
+                                d="M75.429,0H0V71.336H75.429Z" transform="translate(0)"
+                                fill="#13f9f2" />
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path id="Rectangle_2740" data-name="Rectangle 2740" d="M75.429,0H0V71.338H75.429Z"
+            transform="translate(440.659 71.335)" fill="#51dc94" />
+        <path id="Rectangle_2741" data-name="Rectangle 2741" d="M211.783,0H0V223.448H211.783Z"
+            transform="translate(154.326 143.554)" fill="#13f9f2" />
+        <path id="Path_14019" data-name="Path 14019"
+            d="M208.069,0v28.58H51.959L204.344,177.695l-21.567,19L31.758,49.1V202.784H0V0Z"
+            transform="translate(0 2.012)" fill="#13f9f2" />
+    </g>
+</svg>
+  
