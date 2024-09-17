@@ -131,7 +131,7 @@ function InstructorsSection() {
               tiktokLink="https://www.tiktok.com/@taline.mov?_r=1"
               className="bg-[#F136E6]"
             />
-            <InstructorCard
+          <InstructorCard
               image={Influencer6Image}
               name="Maitha Mohammed"
               followers="949K followers"
@@ -150,7 +150,7 @@ function InstructorsSection() {
               tiktokLink="https://www.tiktok.com/@bonabeel"
               className="bg-[#86FABC]"
             />
-            <InstructorCard
+         <InstructorCard
               image={Influencer2Image}
               name="Alex Ghanem"
               title="Brand Partnerships & Talent Management Director"
@@ -164,8 +164,8 @@ function InstructorsSection() {
               youtubeLink="https://m.youtube.com/@vl0sca"
               tiktokLink="https://www.tiktok.com/@vl0sca?_t=8iy9DJHGEae&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaasu3v29NjQIouTdKCNFqEB3pTBINNZduqW_Uujc8-b2vr0tEXy54MhAdQ_aem_Ysko7PTfs9xc36dPYE_92A"
               className="bg-[#A4ED00]"
-            />
-            {/* ..... */}
+            /> 
+            
             <InstructorCard
             image={Influencer7Image}
             name="Khalid AlAmeri"
@@ -177,48 +177,7 @@ function InstructorsSection() {
             xLink=" https://www.threads.net/@khalidalameri?hl=en"
               className="bg-[#DAD6F7]"
             />
-            <InstructorCard
-              image={Influencer3Image}
-              name="Taline AlRasheed"
-              followers="329K followers"
-              instagramLink="https://www.instagram.com/taline.mov/"
-              tiktokLink="https://www.tiktok.com/@taline.mov?_r=1"
-              className="bg-[#F136E6]"
-            />
-            <InstructorCard
-              image={Influencer6Image}
-              name="Maitha Mohammed"
-              followers="949K followers"
-              instagramLink="https://www.instagram.com/mythjourney/?hl=en"
-              youtubeLink="https://www.youtube.com/@Mythjourney"
-              tiktokLink="https://www.tiktok.com/@mythjourney?lang=en"
-              xLink="https://x.com/mythjourney?lang=en"
-              className="bg-[#DAD6F7]"
-            />
-            <InstructorCard
-              image={Influencer1Image}
-              name="Bader AlEssa"
-              followers="720K followers"
-              instagramLink="https://www.instagram.com/bonabeel/?hl=en"
-              youtubeLink="https://www.youtube.com/@RichterCreativekw"
-              tiktokLink="https://www.tiktok.com/@bonabeel"
-              className="bg-[#86FABC]"
-            />
-            <InstructorCard
-              image={Influencer2Image}
-              name="Alex Ghanem"
-              title="Brand Partnerships & Talent Management Director"
-              className="bg-[#86FABC]"
-            />
-            <InstructorCard
-              image={Influencer5Image}
-              name="Riham Alhamimi"
-              followers="1.7M followers"
-              instagramLink="https://www.instagram.com/vl0sca/"
-              youtubeLink="https://m.youtube.com/@vl0sca"
-              tiktokLink="https://www.tiktok.com/@vl0sca?_t=8iy9DJHGEae&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaasu3v29NjQIouTdKCNFqEB3pTBINNZduqW_Uujc8-b2vr0tEXy54MhAdQ_aem_Ysko7PTfs9xc36dPYE_92A"
-              className="bg-[#A4ED00]"
-            />
+        
           </div>
         </Marquee>
       </SectionContent>
