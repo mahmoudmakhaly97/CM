@@ -122,7 +122,7 @@ function InstructorsSection() {
       <SectionContent className={"py-36 flex flex-col items-center"}>
         <h2 className="text-7xl font-bold pb-12">The Instructors</h2>
         <Marquee speed={100} pauseOnHover>
-          <div className="flex gap-10 w-full ps-14 md:ps-[45px] [&>*:nth-child(even)]:rounded-t-none [&>*:nth-child(even)]:rounded-b-full">
+          <div className="flex gap-10 w-full ps-10 xl:ps-[35px] [&>*:nth-child(even)]:rounded-t-none [&>*:nth-child(even)]:rounded-b-full">
             <InstructorCard
               image={Influencer3Image}
               name="Taline AlRasheed"
