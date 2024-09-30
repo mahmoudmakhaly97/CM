@@ -5,18 +5,20 @@ import { Label } from "../label";
 import { Checkbox } from "../checkbox";
 import { signup } from "@/app/actions";
 import { cn } from "@/lib/utils";
-import { FormSubmit } from "../form-submit";
+import { FormSubmit } from "../form-submit"
+ 
+;
 import { useFormState } from "react-dom";
 import { useEffect, useState } from "react";
 import { SectionContent } from "../section-content";
+import DOMPurify from 'dompurify';
 
 function JoinSection() {
   const [state, formAction] = useFormState(signup, {
     submitted: false,
     error: [],
   });
-
-  const [isLanguageError, setIsLanguageError] = useState(
+   const [isLanguageError, setIsLanguageError] = useState(
     state.error.includes("language-required"),
   );
 
@@ -25,11 +27,11 @@ function JoinSection() {
   useEffect(() => {
     setIsLanguageError(state.error.includes("language-required"));
   }, [state.error]);
-
+ 
   return (
     <section id="join" className="bg-[#F8F9FA] scroll-mt-52">
       <SectionContent className={"py-20 px-14 md:px-[90px]"}>
-        <form action={formAction} className="flex flex-col items-center gap-20">
+        <form action={formAction} className="flex flex-col items-center gap-20"  id="enquiryForm" >
           <div className="flex flex-col items-start w-full text-start gap-2">
             <h3 className="text-7xl font-bold">JOIN US ONLINE, SIGN-UP FOR FREE</h3>
             <p className="text-2xl font-light text-[#828282]">
@@ -44,47 +46,9 @@ function JoinSection() {
                 placeholder="Full Name *"
                 className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
               />
-              <Input
-                name="phone"
-                required
-                type="number"
-                placeholder="Phone *"
-                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-              />
-              <Input
-                name="email"
-                required
-                type="email"
-                placeholder="Email *"
-                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-              />
-              <Input
-                name="age"
-                type="number"
-                placeholder="Age"
-                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-                style={{ display: 'none' }}
-               />
-
-
               <select
                 required
-                name="gender"
-                defaultValue=""
-                className={cn(
-                  "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-                  "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
-                )}
-              >
-                <option value="" disabled>
-                  Gender *
-                </option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-              </select>
-              <select
-                required
-                name="emirate"
+                name="country"
                 defaultValue=""
                 className={cn(
                   "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
@@ -109,43 +73,65 @@ function JoinSection() {
                 <option value="Syria">Syria</option>
                 <option value="Yemen">Yemen</option>
               </select>
-              <Input
-                name="social-media"
-                placeholder="Social media account Link *"
-                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-                style={{ display: 'none' }}
-              />
+             
               <select
-                  name="industry"
-                  defaultValue=""
-                  className={cn(
-                      "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-                      "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
-                  )}
-                  style={{ display: 'none' }}  // Hide the select element
-                  onChange={(e) => {
-                      console.log("WWW", { e });
-                      if (e.target.value === "Other") {
-                          setIsOtherIndustry(true);
-                      } else {
-                          setIsOtherIndustry(false);
-                      }
-                  }}
+                required
+                name="code"
+                defaultValue=""
+                className={cn(
+                  "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+                  "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
+                )}
               >
-                  <option value="" disabled>
-                      Industry *
-                  </option>
-                  <option value="Tech and Gadgets">Tech and Gadgets</option>
-                  <option value="Finance and Investing">Finance and Investing</option>
-                  <option value="Business">Business</option>
-                  <option value="Science">Science</option>
-                  <option value="Education">Education</option>
-                  <option value="Law">Law</option>
-                  <option value="Digital & AI">Digital & AI</option>
-                  <option value="Lifestyle">Lifestyle</option>
-                  <option value="Other">Other</option>
+                <option value="" disabled>
+                  Country code *
+                </option>
+                <option value="+971">+971</option>
+                <option value="+973">+973</option>
+                <option value="+20">+20</option>
+                <option value="+98">+98</option>
+                <option value="+964">+964</option>
+                <option value="+962">+962</option>
+                <option value="+965">+965</option>
+                <option value="+961">+961</option>
+                <option value="+968">+968</option>
+                <option value="+970">+970</option>
+                <option value="+974">+974</option>
+                <option value="+966">+966</option>
+                <option value="+963">+963</option>
+                <option value="+967">+967</option>
               </select>
-
+              <Input
+                name="phone"
+                required
+                type="number"
+                placeholder="Phone *"
+                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
+              />
+              <Input
+                name="email"
+                required
+                type="email"
+                placeholder="Email *"
+                className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
+              />
+              
+              <select
+                required
+                name="gender"
+                defaultValue=""
+                className={cn(
+                  "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+                  "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
+                )}
+              >
+                <option value="" disabled>
+                  Gender *
+                </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+              
               {isOtherIndustry ? (
                   <Input
                       name="industry-other"
@@ -211,6 +197,7 @@ function JoinSection() {
               <FormSubmit />
             )}
           </div>
+
         </form>
       </SectionContent>
     </section>

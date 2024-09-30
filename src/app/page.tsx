@@ -1,3 +1,4 @@
+"use client"
 import { Footer } from "@/components/Footer";
 import { HeroNav } from "@/components/hero-nav";
 import { AboutProgrameSection } from "@/components/sections/AboutProgrameSection";
@@ -11,10 +12,11 @@ import { JoinTheMastersSection } from "@/components/sections/JoinTheMastersSecti
 import { ProgramBenefitsSection } from "@/components/sections/ProgramBenefitsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { WhyYouShouldApplySection } from "@/components/sections/WhyYouShouldApplySection";
+import { BrowserRouter } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <>
+     <BrowserRouter>
       <HeroSection />
       <HeroNav />
       <AboutProgrameSection />
@@ -28,6 +30,6 @@ export default function Home() {
       <FAQSection />
       <JoinSection />
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
