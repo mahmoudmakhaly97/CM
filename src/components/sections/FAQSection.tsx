@@ -77,7 +77,7 @@ function FAQSection() {
               Is Destination Abu Dhabi Managed by Magnitude Creative?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              Yes, Destination Abu Dhabi is an initiative by Magnitude Creative dedicated to creating awareness about Abu Dhabi's business sectors.
+              Yes, Destination Abu Dhabi is an initiative by Magnitude Creative dedicated to creating awareness about Abu Dhabis business sectors.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
