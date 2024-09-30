@@ -39,7 +39,7 @@ function Footer() {
               className="h-24 max-w-full w-auto"
             />
             <p className="font-extralight">
-              COPYRIGHTS © 2022 MAGNITUDE DIGITAL - AMPLIFY YOUR GROWTH
+              COPYRIGHTS © 2022 MAGNITUDE CREATIVE - AMPLIFY YOUR GROWTH
             </p>
           </div>
         </div>

@@ -31,9 +31,9 @@ function JoinSection() {
       <SectionContent className={"py-20 px-14 md:px-[90px]"}>
         <form action={formAction} className="flex flex-col items-center gap-20">
           <div className="flex flex-col items-start w-full text-start gap-2">
-            <h3 className="text-7xl font-bold">Join us, become a master</h3>
+            <h3 className="text-7xl font-bold">JOIN US ONLINE, SIGN-UP FOR FREE</h3>
             <p className="text-2xl font-light text-[#828282]">
-              It’s time to invest in your passion. Register today and our team will be in contact with you as soon as possible.
+              Sessions available in English and Arabic.
             </p>
           </div>
           <div className="flex flex-col w-full gap-4">
@@ -60,11 +60,12 @@ function JoinSection() {
               />
               <Input
                 name="age"
-                required
                 type="number"
-                placeholder="Age *"
+                placeholder="Age"
                 className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-              />
+                style={{ display: 'none' }}
+               />
+
 
               <select
                 required
@@ -91,61 +92,68 @@ function JoinSection() {
                 )}
               >
                 <option value="" disabled>
-                  Emirate of residence *
+                  Country of residence *
                 </option>
-                <option value="Abu Dhabi">Abu Dhabi</option>
-                <option value="Dubai">Dubai</option>
-                <option value="Sharjah">Sharjah</option>
-                <option value="Ajman">Ajman</option>
-                <option value="Umm Al Quwain">Umm Al Quwain</option>
-                <option value="Ras Al Khaimah">Ras Al Khaimah</option>
-                <option value="Fujairah">Fujairah</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Iran">Iran</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Oman">Oman</option>
+                <option value="Palestine">Palestine</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Syria">Syria</option>
+                <option value="Yemen">Yemen</option>
               </select>
               <Input
                 name="social-media"
-                required
                 placeholder="Social media account Link *"
                 className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
+                style={{ display: 'none' }}
               />
               <select
-                required
-                name="industry"
-                defaultValue=""
-                className={cn(
-                  "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-                  "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
-                )}
-                onChange={(e) => {
-                  console.log("WWW", { e });
-                  if (e.target.value === "Other") {
-                    setIsOtherIndustry(true);
-                  } else {
-                    setIsOtherIndustry(false);
-                  }
-                }}
+                  name="industry"
+                  defaultValue=""
+                  className={cn(
+                      "flex h-10 w-full rounded-md border border-input bg-background py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+                      "bg-[#E9EAEF] h-24 ps-5 rounded-md font-extralight text-2xl invalid:text-[#8D8C8C] border-e-[16px]",
+                  )}
+                  style={{ display: 'none' }}  // Hide the select element
+                  onChange={(e) => {
+                      console.log("WWW", { e });
+                      if (e.target.value === "Other") {
+                          setIsOtherIndustry(true);
+                      } else {
+                          setIsOtherIndustry(false);
+                      }
+                  }}
               >
-                <option value="" disabled>
-                  Industry *
-                </option>
-                <option value="Tech and Gadgets">Tech and Gadgets</option>
-                <option value="Finance and Investing">
-                  Finance and Investing
-                </option>
-                <option value="Business">Business</option>
-                <option value="Science">Science</option>
-                <option value="Education">Education</option>
-                <option value="Law">Law</option>
-                <option value="Digital & AI">Digital & AI</option>
-                <option value="Lifestyle">Lifestyle</option>
-                <option value="Other">Other</option>
+                  <option value="" disabled>
+                      Industry *
+                  </option>
+                  <option value="Tech and Gadgets">Tech and Gadgets</option>
+                  <option value="Finance and Investing">Finance and Investing</option>
+                  <option value="Business">Business</option>
+                  <option value="Science">Science</option>
+                  <option value="Education">Education</option>
+                  <option value="Law">Law</option>
+                  <option value="Digital & AI">Digital & AI</option>
+                  <option value="Lifestyle">Lifestyle</option>
+                  <option value="Other">Other</option>
               </select>
+
               {isOtherIndustry ? (
-                <Input
-                  name="industry-other"
-                  required
-                  placeholder="Industry ( Other ) *"
-                  className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
-                />
+                  <Input
+                      name="industry-other"
+                      required
+                      placeholder="Industry ( Other ) *"
+                      className="bg-[#E9EAEF] h-24 px-5 rounded-md font-extralight text-2xl"
+                      style={{ display: 'none' }}  // Hide the conditional Input
+                  />
               ) : null}
             </div>
             <div>

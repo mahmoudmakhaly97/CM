@@ -60,7 +60,7 @@ function CurriculumOverviewSection() {
     <section id="curriculum" className="bg-white scroll-mt-52">
       <SectionContent className={"flex flex-col items-center py-20 gap-7 "}>
         <div className="flex flex-col items-start w-full text-start px-14 md:px-[90px] gap-10">
-          <h3 className="text-7xl font-bold">Curriculum Overview</h3>
+          <h3 className="text-7xl font-bold">Sessions Overview</h3>
           <h3 className="text-3xl font-bold">
             Access the Number 1 Content Curriculum
           </h3>

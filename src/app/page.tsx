@@ -21,7 +21,7 @@ export default function Home() {
       <InfluencerSection />
       <JoinTheMastersSection />
       <ProgramBenefitsSection />
-      <WhyYouShouldApplySection />
+      {/* <WhyYouShouldApplySection /> */}
       <TestimonialsSection />
       <CurriculumOverviewSection />
       {/* <BecomeContentMasterSection /> */}

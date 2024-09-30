@@ -22,8 +22,7 @@ function AboutProgrameSection() {
             and support to turn your dreams into reality?
             <br />
             <span className="italic font-normal">
-              *content creators in specialized fields such as business, finance,
-              technology, and real estate.
+              
             </span>
           </p>
           <Image

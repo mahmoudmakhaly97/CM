@@ -50,14 +50,11 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              Why do I need to sign the contract before enrolling in the
-              program?
+              Does the social media branding session cover things like social media account themes?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              Signing the contract before enrolling in the program ensures
-              commitment and clarity regarding program expectations, benefits,
-              and responsibilities for both the participant and the program
-              organizers.
+              Yes, the social media branding session covers various aspects, including social media account themes, 
+              to help participants establish a strong and cohesive online presence.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -65,16 +62,11 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              How would this program impact my existing initiatives and
-              partnerships?
+              Will you manage communications with brands regarding partnership deals?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              This program aims to enhance your skills and knowledge,
-              potentially leading to future opportunities for partnership and
-              collaboration. If selected among the 15 creators to continue with
-              Magnitude Digital, you’ll benefit from their experienced talent
-              managers who will manage future partnerships and ensure your
-              visibility to brands and government entities.
+              If selected to continue with Magnitude Creative after the program, their Brand Partnerships team will manage 
+              communications with brands regarding partnership deals, ensuring that exclusive creators are seen by as many brands and government entities as possible.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -82,15 +74,10 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              Will you manage communications with brands regarding partnership
-              deals?
+              Is Destination Abu Dhabi Managed by Magnitude Creative?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              If selected to continue with Magnitude Digital after the program,
-              their Brand Partnerships team will manage communications with
-              brands regarding partnership deals, ensuring that exclusive
-              creators are seen by as many brands and government entities as
-              possible.
+              Yes, Destination Abu Dhabi is an initiative by Magnitude Creative dedicated to creating awareness about Abu Dhabi's business sectors.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -98,11 +85,10 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              How many participants are typically in the program?
+              Are there any script writing sessions?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              We aim to have up to 50 participants in the program, providing a
-              diverse and dynamic learning environment for content creators.
+              Yes, the program includes script writing sessions as part of its curriculum to help participants effectively craft compelling content.
             </AccordionContent>
           </AccordionItem>
 
@@ -111,12 +97,11 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              Is Destination Abu Dhabi Managed by Magnitude Digital?
+              What is the format of the program?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              Yes, Destination Abu Dhabi is an initiative by Magnitude Digital
-              dedicated to creating awareness about Abu Dhabi’s business
-              sectors.
+              The program consists of in-person sessions held in Yas Island, Abu Dhabi. Sessions are conducted by top local and regional content creators 
+              and cover various aspects of content creation, including storytelling, script writing, filming, editing, and social media branding.
             </AccordionContent>
           </AccordionItem>
 
@@ -125,12 +110,11 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              Are there any script writing sessions?
+              How does the program help with social media branding?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              Yes, the program includes script writing sessions as part of its
-              curriculum to help participants effectively craft compelling
-              content.
+              The program offers sessions dedicated to social media branding, providing participants with the knowledge and skills to establish a strong 
+              online presence, engage audiences effectively, and enhance their digital influence.
             </AccordionContent>
           </AccordionItem>
 
@@ -139,12 +123,10 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              Does the program include accommodation and transportation?
+              Do I need special equipment or software to join the program?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              The program does not include accommodation and transportation.
-              Participants are responsible for arranging their own accommodation
-              and transportation during the program duration.
+              All you need is a device with internet access.
             </AccordionContent>
           </AccordionItem>
 
@@ -153,51 +135,13 @@ function FAQSection() {
             className="bg-white rounded-xl px-10 py-3"
           >
             <AccordionTrigger className="text-2xl font-bold gap-5">
-              What is the format of the program?
+              In which language the sessions will be held?
             </AccordionTrigger>
             <AccordionContent className="text-2xl font-light">
-              The program consists of in-person sessions held in Yas Island, Abu
-              Dhabi. Sessions are conducted by top local and regional content
-              creators and cover various aspects of content creation, including
-              storytelling, script writing, filming, editing, and social media
-              branding.
+              The sessions will be a mix of both English and Arabic. However, the majority of the content will be in English.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem
-            value="item-9"
-            className="bg-white rounded-xl px-10 py-3"
-          >
-            <AccordionTrigger className="text-2xl font-bold gap-5">
-              How does the program help with social media branding?
-            </AccordionTrigger>
-            <AccordionContent className="text-2xl font-light">
-              The program offers sessions dedicated to social media branding,
-              providing participants with the knowledge and skills to establish
-              a strong online presence, engage audiences effectively, and
-              enhance their digital influence
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem
-            value="item-10"
-            className="bg-white rounded-xl px-10 py-3"
-          >
-            <AccordionTrigger className="text-2xl font-bold gap-5">
-              What are the brand partnerships and responsibilities?
-            </AccordionTrigger>
-            <AccordionContent className="text-2xl font-light">
-              The session on Brand Partnerships and Responsibilities is
-              dedicated to teaching participants how to choose brands to partner
-              with, the process of online collaboration, dos and don’ts of
-              online collaborations (brand partnerships), and the creator’s
-              responsibilities towards their brands and audience. If selected to
-              continue with Magnitude Digital after the program, their
-              experienced talent managers will handle future partnerships,
-              ensuring creators’ visibility and managing their responsibilities
-              effectively.
-            </AccordionContent>
-          </AccordionItem>
         </Accordion>
       </SectionContent>
     </section>

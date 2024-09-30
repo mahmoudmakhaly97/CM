@@ -36,15 +36,14 @@ function HeroSection() {
             />
             <div className="w-full lg:w-3/5 flex flex-col gap-8">
               <h1 className="text-[5.5rem] font-bold">
-                Join as a Visionary Grow as a Master
+                BECOME A MASTER INFLUENCER
               </h1>
               <h2 className="text-[2.5rem] font-bold font-baiJamjuree">
                 Turn your passion into Influence and Impact
               </h2>
               <p className="text-3xl font-baiJamjuree">
-                The first program in Abu Dhabi designed to empower aspiring
-                content creators like you. <br />
-                Learn from the pros, find your voice, craft killer content, and
+                Welcome to the first & largest online masterclass in Abu Dhabi, designed to empower the next generation of aspiring content creators.<br />
+                Learn from the influencers, find your voice, craft killer content, and
                 watch your online presence explode!
               </p>
               <div className="py-10 flex gap-10 items-center">
