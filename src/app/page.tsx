@@ -16,7 +16,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 export default function Home() {
   return (
-     <BrowserRouter>
+ <>
       <HeroSection />
       <HeroNav />
       <AboutProgrameSection />
@@ -30,6 +30,6 @@ export default function Home() {
       <FAQSection />
       <JoinSection />
       <Footer />
-    </BrowserRouter>
+  </>
   );
 }
