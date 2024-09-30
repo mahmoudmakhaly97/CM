@@ -61,7 +61,7 @@ const signup = async (
     const result = await response.json();
     if (result.result === 'success') {
       alert('Successfully Registered.');
-      form.reset();
+    
     } else {
       alert('There was an error submitting your form.');
     }
