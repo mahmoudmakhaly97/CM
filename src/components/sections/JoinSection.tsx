@@ -72,6 +72,15 @@ function JoinSection() {
                 <option value="Saudi Arabia">Saudi Arabia</option>
                 <option value="Syria">Syria</option>
                 <option value="Yemen">Yemen</option>
+                <option value="Algeria">Algeria</option>
+<option value="Comoros">Comoros</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Libya">Libya</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Morocco">Morocco</option>
+<option value="Somalia">Somalia</option>
+<option value="Sudan">Sudan</option>
+<option value="Tunisia">Tunisia</option>
               </select>
              
               <select
@@ -100,6 +109,15 @@ function JoinSection() {
                 <option value="+966">+966</option>
                 <option value="+963">+963</option>
                 <option value="+967">+967</option>
+                <option value="+213">+213</option>
+<option value="+269">+269</option>
+<option value="+253">+253</option>
+<option value="+218">+218</option>
+<option value="+222">+222</option>
+<option value="+212">+212</option>
+<option value="+252">+252</option>
+<option value="+249">+249</option>
+<option value="+216">+216</option>
               </select>
               <Input
                 name="phone"

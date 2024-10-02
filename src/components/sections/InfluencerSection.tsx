@@ -10,6 +10,7 @@ import Influencer3Image from "../../../public/instructors/instructor-3.png";
 import Influencer5Image from "../../../public/instructors/instructor-5.png";
 import Influencer6Image from "../../../public/instructors/instructor-6.png";
 import Influencer7Image from "../../../public/instructors/instructor-7.png";
+import Influencer8Image from "../../../public/instructors/instructor-8.png";
 
 import SnapchatImage from "../../../public/snapchat.svg";
 import TiktokImage from "../../../public/tiktok.svg";
@@ -123,6 +124,8 @@ function InstructorsSection() {
         <h2 className="text-7xl font-bold pb-12">The Instructors</h2>
         <Marquee speed={100} pauseOnHover>
           <div className="flex gap-10 w-full ps-10 xl:ps-[35px] [&>*:nth-child(even)]:rounded-t-none [&>*:nth-child(even)]:rounded-b-full">
+            
+            
             <InstructorCard
               image={Influencer3Image}
               name="Taline AlRasheed"
@@ -141,21 +144,7 @@ function InstructorsSection() {
               xLink="https://x.com/mythjourney?lang=en"
               className="bg-[#DAD6F7]"
             />
-            <InstructorCard
-              image={Influencer1Image}
-              name="Bader AlEssa"
-              followers="720K followers"
-              instagramLink="https://www.instagram.com/bonabeel/?hl=en"
-              youtubeLink="https://www.youtube.com/@RichterCreativekw"
-              tiktokLink="https://www.tiktok.com/@bonabeel"
-              className="bg-[#86FABC]"
-            />
-         <InstructorCard
-              image={Influencer2Image}
-              name="Alex Ghanem"
-              title="Brand Partnerships & Talent Management Director"
-              className="bg-[#86FABC]"
-            />
+
             <InstructorCard
               image={Influencer5Image}
               name="Riham Alhamimi"
@@ -177,6 +166,46 @@ function InstructorsSection() {
             xLink=" https://www.threads.net/@khalidalameri?hl=en"
               className="bg-[#DAD6F7]"
             />
+
+
+            <InstructorCard
+              image={Influencer1Image}
+              name="Bader AlEssa"
+              followers="720K followers"
+              instagramLink="https://www.instagram.com/bonabeel/?hl=en"
+              youtubeLink="https://www.youtube.com/@RichterCreativekw"
+              tiktokLink="https://www.tiktok.com/@bonabeel"
+              className="bg-[#86FABC]"
+            />
+         <InstructorCard
+              image={Influencer2Image}
+              name="Alex Ghanem"
+              title="Brand Partnerships & Talent Management Director"
+              className="bg-[#86FABC]"
+            />
+
+            
+
+            <InstructorCard
+              image={Influencer8Image}
+              name="Ali Rais"
+              title="Director of Marketing and Communication"
+              className="bg-[#F136E6]"
+            />
+
+            <InstructorCard
+            image={Influencer7Image}
+            name="Khalid AlAmeri"
+            followers="21.3M followers"
+            instagramLink=" https://www.instagram.com/khalidalameri/?hl=en"
+           facebookLink="https://www.facebook.com/khalidalameri/"
+                youtubeLink=" https://www.youtube.com/khalidalameri"
+            tiktokLink="https://www.tiktok.com/@khalidalameri?lang=en"
+            xLink=" https://www.threads.net/@khalidalameri?hl=en"
+              className="bg-[#DAD6F7]"
+            />
+
+            
         
           </div>
         </Marquee>
