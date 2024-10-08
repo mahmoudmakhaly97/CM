@@ -147,7 +147,7 @@ function InstructorsSection() {
 
             <InstructorCard
               image={Influencer5Image}
-              name='Reham  " Vlosca " '
+              name='Reham  "Vlosca" '
               followers="1.7M followers"
               instagramLink="https://www.instagram.com/vl0sca/"
               youtubeLink="https://m.youtube.com/@vl0sca"
