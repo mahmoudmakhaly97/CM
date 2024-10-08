@@ -129,7 +129,7 @@ function InstructorsSection() {
             <InstructorCard
               image={Influencer3Image}
               name="Taline AlRasheed"
-              followers="329K followers"
+              followers="355K followers"
               instagramLink="https://www.instagram.com/taline.mov/"
               tiktokLink="https://www.tiktok.com/@taline.mov?_r=1"
               className="bg-[#F136E6]"
@@ -137,7 +137,7 @@ function InstructorsSection() {
           <InstructorCard
               image={Influencer6Image}
               name="Maitha Mohammed"
-              followers="949K followers"
+              followers="982K followers"
               instagramLink="https://www.instagram.com/mythjourney/?hl=en"
               youtubeLink="https://www.youtube.com/@Mythjourney"
               tiktokLink="https://www.tiktok.com/@mythjourney?lang=en"
@@ -147,7 +147,7 @@ function InstructorsSection() {
 
             <InstructorCard
               image={Influencer5Image}
-              name="Riham Alhamimi"
+              name='Reham  " Vlosca " '
               followers="1.7M followers"
               instagramLink="https://www.instagram.com/vl0sca/"
               youtubeLink="https://m.youtube.com/@vl0sca"
@@ -158,7 +158,7 @@ function InstructorsSection() {
             <InstructorCard
             image={Influencer7Image}
             name="Khalid AlAmeri"
-            followers="21.3M followers"
+            followers="21.9M followers"
             instagramLink=" https://www.instagram.com/khalidalameri/?hl=en"
            facebookLink="https://www.facebook.com/khalidalameri/"
                 youtubeLink=" https://www.youtube.com/khalidalameri"
@@ -171,7 +171,7 @@ function InstructorsSection() {
             <InstructorCard
               image={Influencer1Image}
               name="Bader AlEssa"
-              followers="720K followers"
+              followers="767K followers"
               instagramLink="https://www.instagram.com/bonabeel/?hl=en"
               youtubeLink="https://www.youtube.com/@RichterCreativekw"
               tiktokLink="https://www.tiktok.com/@bonabeel"
