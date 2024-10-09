@@ -11,7 +11,7 @@ import Influencer5Image from "../../../public/instructors/instructor-5.png";
 import Influencer6Image from "../../../public/instructors/instructor-6.png";
 import Influencer7Image from "../../../public/instructors/instructor-7.png";
 import Influencer8Image from "../../../public/instructors/instructor-8.png";
-
+import Influencer9Image from "../../../public/instructors/instructor-9.png";
 import SnapchatImage from "../../../public/snapchat.svg";
 import TiktokImage from "../../../public/tiktok.svg";
 import XImage from "../../../public/x.svg";
@@ -146,7 +146,7 @@ function InstructorsSection() {
             />
 
             <InstructorCard
-              image={Influencer5Image}
+              image={Influencer9Image}
               name='Reham  "Vlosca" '
               followers="1.7M followers"
               instagramLink="https://www.instagram.com/vl0sca/"
