@@ -19,7 +19,7 @@ const AgendaSection = () => {
         <div className="flex flex-col  w-full text-center">
           <h3 className="text-7xl font-bold  ">     Agenda</h3>
         </div>
-  <div className="flex justify-between px-10 w-full hidden md:block">
+  <div className="flex justify-between px-10 w-full hidden md:flex border-b bg-white rounded-xl px-10 py-5">
     <h3 className="w-1/4 text-2xl font-bold">Session</h3>
     <h3 className="w-1/4 text-2xl font-bold">Instructor</h3>
     <h3 className="w-1/4 text-2xl font-bold">Title</h3>
@@ -37,7 +37,7 @@ const AgendaSection = () => {
             className="bg-white rounded-xl px-10 py-3 AccordionItem"
             
           >
-            <AccordionTrigger className="text-2xl font-bold Accordion-Trigger"         onMouseEnter={() => setOpenItem("item-1")}
+            <AccordionTrigger className="text-2xl font-bold Accordion-Trigger"       
           >
                           <div>
                           
@@ -60,7 +60,7 @@ const AgendaSection = () => {
                           <div className="Accordion-Content  ms-auto w-1/4">
                                <p className=" text-lg block md:hidden mt-5">Scripting & Storytelling</p>
                               <p className="  font-light text-lg text-start my-5 visible md:hidden"> Khalid Al Ameri </p>
-            <p className="  font-light text-lg"> 01. Introduction into Storytelling </p> 
+            <p className="  font-light text-lg block md:hidden"> 01. Introduction into Storytelling </p> 
 
                           </div>
             </AccordionContent>
