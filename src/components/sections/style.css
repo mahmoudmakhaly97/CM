@@ -1,7 +1,3 @@
-#agenda .accordion-img {
-    display: none
-}
-
 .Accordion-Trigger>div {
     width: 25%;
     text-align: start
@@ -15,6 +11,44 @@
     .Accordion-Content {
         margin: 0;
         margin-inline-end: auto;
-        width:100%!important
+        width: 100% !important;
+        text-align: center
+    }
+
+    .Accordion-Content p {
+        font-size: 1.5rem !important
+    }
+}
+
+@media (min-width:575px) {
+    #agenda .accordion-img {
+        display: none
+    }
+
+
+}
+
+@media (max-width:575px) {
+    .Accordion-Trigger {
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding-bottom: 1rem !important
+    }
+
+    .Accordion-Trigger p {
+
+        font-size: 1.5rem !important;
+        font-weight: bold !important;
+        position: absolute;
+        left: 50%;
+        line-height: 0 !important;
+
+        transform: translate(-50%);
+
+    }
+
+    .AccordionItem {
+        position: relative
     }
 }
