@@ -20,10 +20,10 @@ const AgendaSection = () => {
           <h3 className="text-7xl font-bold  ">     Agenda</h3>
         </div>
   <div className="flex justify-between px-10 w-full hidden md:flex border-b bg-white rounded-xl px-10 py-5">
-    <h3 className="w-1/4 text-2xl font-bold">Session</h3>
-    <h3 className="w-1/4 text-2xl font-bold">Instructor</h3>
-    <h3 className="w-1/4 text-2xl font-bold">Title</h3>
-    <h3 className="w-1/4 text-2xl font-bold"> Content</h3>
+    <h3 className="w-1/4 text-2xl font-bold ">Session</h3>
+    <h3 className="w-1/4 text-2xl font-bold ">Instructor</h3>
+    <h3 className="w-1/4 text-2xl font-bold ">Title</h3>
+    <h3 className="w-1/4 text-2xl font-bold "> Content</h3>
     </div>
         <Accordion    collapsible value={openItem} onValueChange={(value) => setOpenItem(value)}
           type="single"
