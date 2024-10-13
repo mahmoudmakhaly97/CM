@@ -207,7 +207,7 @@ const AgendaSection = () => {
            {
             hoveredItem==="item-4"&&(
               <AccordionContent className="text-2xl font-light flex flex-col align-end ">
-                    <p className="text-2xl font-bold    block md:hidden mt-5 text-center md:text-start">Title " </p>
+                    <p className="text-2xl font-bold    block md:hidden mt-5 text-center md:text-start">Title </p>
                     <p className="text-2xl    block md:hidden mt-5 text-center md:text-start">Filming & Editing</p>
                     <p className=" text-2xl block md:hidden mt-5 text-center md:text-start font-bold">Name : </p>
                     <p className=" text-2xl block md:hidden my-5 text-center md:text-start">Ahmed Ali</p>
