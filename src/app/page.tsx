@@ -7,6 +7,7 @@ import { CurriculumOverviewSection } from "@/components/sections/CurriculumOverv
 import { FAQSection } from "@/components/sections/FAQSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { InfluencerSection } from "@/components/sections/InfluencerSection";
+import { AgendaSection } from "@/components/sections/AgendaSection";
 import { JoinSection } from "@/components/sections/JoinSection";
 import { JoinTheMastersSection } from "@/components/sections/JoinTheMastersSection";
 import { ProgramBenefitsSection } from "@/components/sections/ProgramBenefitsSection";
@@ -21,6 +22,7 @@ export default function Home() {
       <HeroNav />
       <AboutProgrameSection />
       <InfluencerSection />
+      <AgendaSection/>
       <JoinTheMastersSection />
       <ProgramBenefitsSection />
       {/* <WhyYouShouldApplySection /> */}

@@ -30,13 +30,13 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>img]:rotate-0",
+        "flex overflow-hidden text-sm transition-all duration-500 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>img]:rotate-0",
         className
       )}
       {...props}
     >
       {children}
-      <Image src={FAQArrow} alt='next' className='h-10 w-10 shrink-0 transition-transform duration-200 rotate-180' />
+      <Image src={FAQArrow} alt='next' className='h-10 w-10 shrink-0 transition-transform duration-200 rotate-180 accordion-img' />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))

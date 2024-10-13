@@ -41,6 +41,7 @@ const HeroNav = () => {
             <NavLink href="#home">Home</NavLink>
             <NavLink href="#about">About</NavLink>
             <NavLink href="#instructors">Instructors</NavLink>
+            <NavLink href="#instructors">Agenda</NavLink>
             <NavLink href="#benefits">Benefits</NavLink>
             <NavLink href="#testimonials">Testimonials</NavLink>
             <NavLink href="#curriculum">Curriculum</NavLink>
@@ -66,6 +67,7 @@ const HeroNav = () => {
               <NavLink href="#home">Home</NavLink>
               <NavLink href="#about">About</NavLink>
               <NavLink href="#instructors">Instructors</NavLink>
+              <NavLink href="#agenda">Agenda</NavLink>
               <NavLink href="#benefits">Benefits</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
               <NavLink href="#curriculum">Curriculum</NavLink>

@@ -1,0 +1,20 @@
+#agenda .accordion-img {
+    display: none
+}
+
+.Accordion-Trigger>div {
+    width: 25%;
+    text-align: start
+}
+
+.Accordion-Trigger {
+    padding-bottom: 0 !important
+}
+
+@media (max-width:575px) {
+    .Accordion-Content {
+        margin: 0;
+        margin-inline-end: auto;
+        width:100%!important
+    }
+}
